@@ -3,7 +3,7 @@
     "description": "Metronic Template for Yii2",
     "keywords": ["yii", "metronic", "template"],
     "type": "yii2-extension",
-    "license": "",
+    "license": "BSD",
     "support": {
         "forum": "",
         "wiki": ""
