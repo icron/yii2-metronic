@@ -345,5 +345,4 @@ Note renders a metronic button.
   Note::end();
   ```
   
-##### See more widgets in code documentation ...
-  
+##### For more details see code documentation ...
