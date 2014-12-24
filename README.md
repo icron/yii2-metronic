@@ -69,7 +69,7 @@ Metronic menu displays a multi-level menu using nested HTML lists.
   ]
   ]);
   ```
-   #### Horizontal Menu
+#### Horizontal Menu
 Horizontal Menu displays a multi-level menu using nested HTML lists.
  
   The main property of Menu is [[items]], which specifies the possible items in the menu.
@@ -141,7 +141,7 @@ Horizontal Menu displays a multi-level menu using nested HTML lists.
       ],
   ]);
   ```
- #### Nav
+#### Nav
   
 Nav renders a nav HTML component.
  For example:
@@ -171,7 +171,7 @@ Nav renders a nav HTML component.
  
   **Note**: *Multilevel dropdowns beyond Level 1 are not supported in Bootstrap 3.*
   
- #### DateRangePicker
+#### DateRangePicker
 DateRangePicker renders dateRangePicker widget.
  
    There are two modes of operation of the widget are 'input' and 'advance'.
@@ -201,7 +201,7 @@ DateRangePicker renders dateRangePicker widget.
        'value' => '2014-02-15 - 2014-02-18',
   ]);
   ```
-  #### Portlet
+#### Portlet
   
 Portlet renders a metronic portlet.
   Any content enclosed between the [[begin()]] and [[end()]] calls of Portlet
@@ -238,7 +238,7 @@ Portlet renders a metronic portlet.
     ],
   ]);
   ```
-   #### Select2
+#### Select2
    
   Select2 renders Select2 component.
   For example:
@@ -250,7 +250,7 @@ Portlet renders a metronic portlet.
   ]);
   ```
  
- #### Badge
+#### Badge
      
 Badge widget. For example,
 ```
@@ -260,7 +260,7 @@ Badge widget. For example,
       'round'
   ]);
  ```
-  #### IonRangeSlider
+#### IonRangeSlider
 IonRangeSlider renders ionRangeSlider widget.
   For example, if [[model]] and [[attribute]] are not set:
   ```php
@@ -279,7 +279,7 @@ IonRangeSlider renders ionRangeSlider widget.
       ],
   ]);
   ```
-  #### Spinner 
+#### Spinner 
   
 Spinner renders an spinner Fuel UX widget.
  For example:
@@ -303,7 +303,7 @@ Spinner renders an spinner Fuel UX widget.
       'clientOptions' => ['step' => 2],
   ]);
  ```
-  #### Accordion 
+#### Accordion 
    Accordion renders an accordion Metronic component.
  For example:
  
@@ -325,7 +325,7 @@ Spinner renders an spinner Fuel UX widget.
       'itemConfig' => ['showIcon' => true],
  ]);
   ```
-  #### Note
+#### Note
   
 Note renders a metronic button.
   For example,
@@ -345,5 +345,5 @@ Note renders a metronic button.
   Note::end();
   ```
   
-  ##### See more widgets in code documentation ...
+##### See more widgets in code documentation ...
   
