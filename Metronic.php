@@ -80,7 +80,7 @@ class Metronic extends \yii\base\Component
 
     public function init()
     {
-        Yii::$classMap['yii\helpers\Html'] = __DIR__ . '\helpers\Html.php';
+        Yii::$classMap['yii\helpers\Html'] = __DIR__ . DIRECTORY_SEPARATOR .'helpers' . DIRECTORY_SEPARATOR . 'Html.php';
     }
     /**
      * @return Metronic Get Metronic component
