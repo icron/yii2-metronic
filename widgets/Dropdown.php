@@ -82,7 +82,7 @@ class Dropdown extends \yii\bootstrap\Dropdown
      * @return string the rendering result.
      * @throws InvalidConfigException if the label option is not specified in one of the items.
      */
-    protected function renderItems($items)
+    protected function renderItems($items, $options = [])
     {
         $lines = [];
         if ($this->title) {
